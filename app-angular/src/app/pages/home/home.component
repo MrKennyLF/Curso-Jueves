@@ -1,0 +1,7 @@
+ <main class="main-content">
+        <div class="container">
+            <h2>Página Principal</h2>
+            <p id="welcome-text">Este es el contenido principal de la página. ¡Haz clic en el botón para cambiar este mensaje!</p>
+            <button id="change-text-btn">Cambiar Mensaje</button>
+        </div>
+    </main>
