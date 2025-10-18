@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+@keyframes fadeIn { 
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+body {
+    font-family: 'Roboto', sans-serif; // Fuente para el texto normal
+    margin: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif; // Fuente para los títulos
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

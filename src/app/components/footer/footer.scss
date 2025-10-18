@@ -1,0 +1,32 @@
+.footer {
+    background-color: #1f1f1f;
+    color: #757575;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top: 1px solid #333;
+    margin-top: 2rem;
+}
+.social-links {
+    margin-bottom: 1rem;
+
+    a {
+        color: #757575;
+        font-size: 1.5rem; // Tamaño del icono
+        margin: 0 10px;
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: #bb86fc; // Color al pasar el mouse
+        }
+    }
+}
+.email-link {
+        display: inline-flex; // Alinea el ícono y el texto
+        align-items: center; // Centra verticalmente
+        gap: 8px; // Espacio entre el ícono y el texto
+        text-decoration: none; // Quita el subrayado
+
+        span {
+            font-size: 1rem; // Ajusta el tamaño del texto si es necesario
+        }
+    }
