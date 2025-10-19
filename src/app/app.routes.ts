@@ -1,10 +1,11 @@
 import { Routes } from '@angular/router';
-import { Kenny } from './pages/kenny/kenny'; // Importa TU componente
+// CORRECCIÓN: Se cambió 'Kenny' por 'KennyComponent' para que coincida con la clase real
+import { KennyComponent } from './pages/kenny/kenny';
 
 export const routes: Routes = [
-  // Ruta para tu página
-  { path: 'kenny', component: Kenny },
+  // Se usa el nombre correcto del componente aquí también
+  { path: 'kenny', component: KennyComponent },
 
-  // Si alguien entra a la página principal, lo redirige a tu página por defecto
+  // Redirige a tu página por defecto
   { path: '', redirectTo: '/kenny', pathMatch: 'full' }
 ];

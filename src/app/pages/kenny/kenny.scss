@@ -2,8 +2,8 @@
     padding: 2rem 0;
 .projects .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); // <-- La magia del responsive
-    gap: 1.5rem; // Espacio entre las tarjetas
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 1.5rem; 
 }
     .project-card {
         background-color: #1f1f1f;
@@ -23,7 +23,7 @@
         transform: translateY(-5px) scale(1.02);
         box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
     }
-    .project-link { // <-- AÑADIR ESTE BLOQUE
+    .project-link { 
         display: inline-block;
         margin-top: 1rem;
         text-decoration: none;
@@ -32,7 +32,7 @@
         transition: transform 0.2s ease;
 
         &:hover {
-            transform: translateX(5px); // Se mueve a la derecha al pasar el mouse
+            transform: translateX(5px); 
         }
     }
 }
@@ -61,4 +61,9 @@
         color: #bb86fc;
         margin: 0 0 10px;
     }
+}
+.spotify-embed {
+    border-radius: 12px; 
+    margin-top: 2rem;    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); 
 }
