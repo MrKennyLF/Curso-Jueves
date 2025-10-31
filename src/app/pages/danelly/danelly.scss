@@ -1,0 +1,64 @@
+$verde: #007f00;
+$fondo: #f6f8fa;
+$texto: #1b1b1b;
+
+
+body {
+margin: 0;
+font-family: 'Inter', system-ui, sans-serif;
+background: $fondo;
+color: $texto;
+}
+
+
+.navbar {
+background: linear-gradient(90deg, $verde, darken($verde, 10%));
+color: white;
+padding: 15px 20px;
+
+
+.container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.nav-links {
+list-style: none;
+display: flex;
+gap: 20px;
+
+
+a {
+color: white;
+text-decoration: none;
+font-weight: 500;
+
+
+&:hover {
+text-decoration: underline;
+}
+}
+}
+}
+
+
+.home, .about, .contact {
+padding: 40px 20px;
+text-align: center;
+
+
+h2 {
+color: $verde;
+}
+}
+
+
+.footer {
+text-align: center;
+padding: 20px;
+background-color: lighten($verde, 45%);
+color: darken($texto, 20%);
+font-size: 14px;
+}
