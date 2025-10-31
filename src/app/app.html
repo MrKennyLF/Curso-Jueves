@@ -1,7 +1,12 @@
-<app-navbar></app-navbar>
+<nav class="navbar">
+  <h1 class="logo">Mi Proyecto Angular</h1>
+  <ul class="nav-links">
+    <li><a routerLink="/kenny" routerLinkActive="active">Kenny</a></li>
+    <li><a routerLink="/danelly" routerLinkActive="active">Danelly</a></li>
+    <li><a routerLink="/adan" routerLinkActive="active">Adan</a></li>
+  </ul>
+</nav>
 
 <main>
   <router-outlet></router-outlet>
 </main>
-
-<app-footer></app-footer>

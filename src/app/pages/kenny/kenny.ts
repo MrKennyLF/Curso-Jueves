@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { Project, ProjectService } from '../../services/project';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-kenny',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './kenny.html',
   styleUrl: './kenny.scss'
 })
